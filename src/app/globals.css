@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  margin: 0 auto;
+}
+
 :root {
+  @apply w-full max-w-screen-2xl;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -11,6 +16,9 @@
 }
 
 body {
+  height: 100vh;
+  @apply w-full max-w-screen-2xl;
+  margin: 0 auto;
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

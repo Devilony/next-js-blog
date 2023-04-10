@@ -3,7 +3,7 @@
     "id": 1,
     "title": "타이틀1",
     "summary": "요약",
-    "category": "카테고리",
+    "category": "Frontend",
     "description": "클릭했을 때 나올 내용, 마크다운",
     "createdAt": "날짜"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "타이틀2",
     "summary": "요약",
-    "category": "카테고리",
+    "category": "Backend",
     "description": "클릭했을 때 나올 내용, 마크다운",
     "createdAt": "날짜"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "타이틀3",
     "summary": "요약",
-    "category": "카테고리",
+    "category": "Backend",
     "description": "클릭했을 때 나올 내용, 마크다운",
     "createdAt": "날짜"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "타이틀4",
     "summary": "요약",
-    "category": "카테고리",
+    "category": "Algorithm",
     "description": "클릭했을 때 나올 내용, 마크다운",
     "createdAt": "날짜"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "타이틀5",
     "summary": "요약",
-    "category": "카테고리",
+    "category": "Frontend",
     "description": "클릭했을 때 나올 내용, 마크다운",
     "createdAt": "날짜"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "타이틀6",
     "summary": "요약",
-    "category": "카테고리",
+    "category": "Algorithm",
     "description": "클릭했을 때 나올 내용, 마크다운",
     "createdAt": "날짜"
   }

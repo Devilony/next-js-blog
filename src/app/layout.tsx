@@ -14,11 +14,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
-          <h1>
-            <Link href="/">Jonghan</Link>
+        <header className="flex justify-between p-3 mb-5">
+          <h1 className="text-4xl font-bold">
+            <Link href="/">Blog</Link>
           </h1>
-          <nav>
+          <nav className="flex items-center gap-4 font-semibold">
             <Link href="/">Home</Link>
             <Link href="/posts">Posts</Link>
             <Link href="/about">About</Link>

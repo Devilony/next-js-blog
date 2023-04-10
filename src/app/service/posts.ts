@@ -2,12 +2,14 @@ import { promises } from 'fs';
 import path from 'path';
 
 export interface Post {
-  id: number;
-  title: string;
-  summary: string;
-  category: string;
-  description: string;
-  createdAt: string;
+  post: {
+    id: number;
+    title: string;
+    summary: string;
+    category: string;
+    description: string;
+    createdAt: string;
+  };
 }
 
 export async function getPosts(): Promise<Post[]> {
