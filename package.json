@@ -29,6 +29,7 @@
   },
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
-    "@types/react-syntax-highlighter": "^15.5.7"
+    "@types/react-syntax-highlighter": "^15.5.7",
+    "nodemailer": "^6.9.3"
   }
 }
