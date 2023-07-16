@@ -7,7 +7,7 @@ export default function Hero() {
       <Link href="/about" className="hover:scale-110 transition-all">
         <Image
           className="rounded-full"
-          src="/images/milk.png"
+          src="/images/milk.webp"
           alt="profile"
           width={180}
           height={180}
