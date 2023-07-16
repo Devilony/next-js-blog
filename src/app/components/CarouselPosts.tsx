@@ -1,15 +1,15 @@
-import { getPosts } from '../service/posts';
+import { getNonFeaturedPosts } from '../service/posts';
 import MultiCarousel from './MultiCarousel';
 import PostCard from './PostCard';
 
 export default async function CarouselPosts() {
-  const posts = await getPosts();
+  const posts = await getNonFeaturedPosts();
   return (
-    <section className="mt-10 mb-5">
-      <h2 className="text-xl font-bold">You May Like</h2>
+    <section className="my-4">
+      <h2 className="text-xl font-bold my-2">You May Like</h2>
       <MultiCarousel>
         {posts.map((post) => (
-          <PostCard key={post.id} post={post} />
+          <PostCard key={post.path} post={post} />
         ))}
       </MultiCarousel>
     </section>
