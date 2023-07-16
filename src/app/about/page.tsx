@@ -8,13 +8,13 @@ export default function AboutPage() {
         <Link href="/about" className="hover:scale-110 transition-all">
           <Image
             className="rounded-full"
-            src="/images/milk.png"
+            src="/images/milk.webp"
             alt="profile"
             width={180}
             height={180}
           />
         </Link>
-        <h1 className="m-2 text-lg font-semibold">Hello, I'm Devilony</h1>
+        <h1 className="m-2 text-lg font-semibold">{"Hello, I'm Devilony"}</h1>
         <p className="text-sm">
           프론트엔드 하고 싶은 C언어로 밥 벌어먹는 개발자
         </p>
@@ -32,11 +32,11 @@ export default function AboutPage() {
         <p className="text-sm font-normal">일본 글로벌 인턴십 (2019)</p>
         <p className="text-sm font-normal">SSAFY (2020)</p>
         <p className="text-sm font-normal">
-          삼성전자 5G MAC Scheduler 개발(2021~)
+          삼성전자 5G MAC Scheduler 개발 (2021~)
         </p>
         <h1 className="mt-5">Skills</h1>
-        <p className="text-sm font-normal">React, HTML, JS, CSS</p>
-        <p className="text-sm font-normal">Python, C</p>
+        <p className="text-sm font-normal">{'React, HTML, JS, CSS'}</p>
+        <p className="text-sm font-normal">{'Python, C'}</p>
       </section>
     </>
   );
